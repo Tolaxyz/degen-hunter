@@ -30,7 +30,7 @@ function create() {
   spaceKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
 
   // 🏆 Title
-  this.add.text(20, 10, "web3's unhinged Anti-hero!", {
+  this.add.text(20, 10, "degentokenbase!", {
     fontSize: "28px",
     fill: "#fff",
     fontStyle: "bold",
@@ -85,7 +85,7 @@ function create() {
     this.physics.pause();
     player.setTint(0xff0000);
     gameOver = true;
-    gameOverText.setText("we lost 69!");
+    gameOverText.setText("we lost 7!");
   });
 }
 
